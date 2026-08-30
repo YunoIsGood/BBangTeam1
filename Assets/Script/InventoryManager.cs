@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [DisallowMultipleComponent]
-public sealed class InventoryManager : MonoBehaviour
+public class InventoryManager : MonoBehaviour
 {
     public static InventoryManager Instance { get; private set; }
 

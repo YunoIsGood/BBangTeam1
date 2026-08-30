@@ -12,7 +12,7 @@ public class CarMove : MonoBehaviour
 
     private void Update()
     {
-        transform.position += transform.forward * speed * Time.deltaTime;
+        transform.position += transform.forward * (speed * Time.deltaTime);
     }
 
     private void OnTriggerEnter(Collider other) 

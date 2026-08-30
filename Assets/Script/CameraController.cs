@@ -31,8 +31,8 @@ public sealed class CameraController : MonoBehaviour
 
     private void Awake()
     {
-        PrimeTweenConfig.warnEndValueEqualsCurrent = false; 
         Instance = this;
+        PrimeTweenConfig.warnEndValueEqualsCurrent = false; 
         _fpsOriginPos = cameraTransform.position;
         _fpsOriginRot = cameraTransform.rotation;
         
